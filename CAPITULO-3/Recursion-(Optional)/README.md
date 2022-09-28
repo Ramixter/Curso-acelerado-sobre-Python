@@ -123,3 +123,17 @@ print(sum_positive_numbers(5)) # Should be 15
 </details>
 
 ***
+
+## Recursividad en acción en el contexto de TI
+
+Por ahora has visto cómo se ve una función recursiva, cómo escribir un caso base y el caso recursivo. Te podrías estar preguntando por qué necesitamos funciones recursivas si puedo usar un `bucle for` o un `bucle while`.
+
+Bueno, las soluciones a algunos problemas específicos son más fáciles de escribir y entender cuando se usan funciones recursivas.
+
+Muchas funciones matemáticas como el factorial o la suma de todos los números anteriores son buenos ejemplos de esto. Si una función matermática ya está definida en términos recursivos, es sencillo escribir el código como una función recursiva. Pero no se trata solo de funciones matemáticas.
+
+Veamos un par de ejemplos de cómo esto podría ayudar a un especialista en IT a automatizar tareas.
+
+Digamos que necesitamos escribir una herrameinta que recorra un montón de directorios en tu computadora y calcula cuántos archivos están contenidos en cada uno. Al listar los archivos dento de un directorio, es posible que encuentres subdirectorios dentro de ellos y también desees contar los archivos en estos subdirectorios. Este es un gran momento para usar la recursión.
+
+El caso base sería un directorio sin subdirectorios. Para este caso, la función solo devolvería la cantidad de archivos. El caso recursivo sería llamar a la función recursiva para cada uno de los subdirectorios contenidos.
