@@ -82,4 +82,8 @@ factorial(4)
 
 Así que podemos ver que la función seguiría llamándose a sí misma hasta que llega al caso base. Despue´s de eso, cada función devuelve el valor de la función anterior multiplicado por *n* hasta el retorno de la función original.
 
+***
+
 ## Pregunta
+
+***
