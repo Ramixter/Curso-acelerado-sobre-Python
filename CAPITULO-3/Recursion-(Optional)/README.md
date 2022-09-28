@@ -62,7 +62,7 @@ def factorial(n):
 
 factorial(4)
 ```
->{```python
+>```python
 Factorial called with 4
 Factorial called with 3
 Factorial called with 2
