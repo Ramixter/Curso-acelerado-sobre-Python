@@ -80,12 +80,26 @@ factorial(4)
 </p>
 </details>
 
-Así que podemos ver que la función seguiría llamándose a sí misma hasta que llega al caso base. Despue´s de eso, cada función devuelve el valor de la función anterior multiplicado por *n* hasta el retorno de la función original.
+Así que podemos ver que la función seguiría llamándose a sí misma hasta que llega al caso base. Despue´s de eso, cada función devuelve el valor de la función anterior multiplicado por n hasta el retorno de la función original.
 
 ***
 
 ## Pregunta
 
 La función `sum_positive_numbers` debe devolver la suma de todos los números positivos entre el número n recibido y 1. Por ejemplo, cuando n es 3, debe devolver 1+2+3=6, y cuando n es 5, debe devolver 1+2+3 +4+5=15. Rellena los huecos para que esto funcione:
+
+```python
+def sum_positive_numbers(n):
+    # The base case is n being smaller than 1
+    if n < 1:
+        return ___
+
+    # The recursive case is adding this number to 
+    # the sum of the numbers smaller than this one.
+    return ___ + sum_positive_numbers(___)
+
+print(sum_positive_numbers(3)) # Should be 6
+print(sum_positive_numbers(5)) # Should be 15
+```
 
 ***
