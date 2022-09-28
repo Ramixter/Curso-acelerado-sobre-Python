@@ -64,7 +64,6 @@ factorial(4)
 ```
 
 <details><summary>Resultado</summary>
-<p>
 ```
 Factorial called with 4
 Factorial called with 3
@@ -75,5 +74,4 @@ Returning 2 for factorial of 2
 Returning 6 for factorial of 3
 Returning 24 for factorial of 4
 ```
-</p>
 </details>
