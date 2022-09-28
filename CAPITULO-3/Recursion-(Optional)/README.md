@@ -62,6 +62,7 @@ def factorial(n):
 
 factorial(4)
 ```
+
 <details><summary>Resultado</summary>
 <p>
 ```
