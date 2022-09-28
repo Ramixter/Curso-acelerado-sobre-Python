@@ -86,6 +86,6 @@ Así que podemos ver que la función seguiría llamándose a sí misma hasta que
 
 ## Pregunta
 
-La función suma_números_positivos debe devolver la suma de todos los números positivos entre el número n recibido y 1. Por ejemplo, cuando n es 3, debe devolver 1+2+3=6, y cuando n es 5, debe devolver 1+2+3 +4+5=15. Rellena los huecos para que esto funcione:
+La función `sum_positive_numbers` debe devolver la suma de todos los números positivos entre el número n recibido y 1. Por ejemplo, cuando n es 3, debe devolver 1+2+3=6, y cuando n es 5, debe devolver 1+2+3 +4+5=15. Rellena los huecos para que esto funcione:
 
 ***
