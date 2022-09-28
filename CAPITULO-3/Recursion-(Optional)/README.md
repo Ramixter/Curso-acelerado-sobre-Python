@@ -42,4 +42,11 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 ```
-Al comienzo de la función, tenemos un bloque condicional que define el caso base (`if n < 2:`) donde n es menor que 2. Simplemente devuelve el valor 1 (`return 1`). Despues del caso base, tenemos una línea donde la función factorial se llama a sí misma con n menos 1 (`return n * factorial(n-1)`). Esto se denomina **caso recursivo**.
+Al comienzo de la función, tenemos un bloque condicional que define el caso base (`if n < 2:`) donde n es menor que 2. Simplemente devuelve el valor 1 (`return 1`). Despues del caso base, tenemos una línea donde la función factorial se llama a sí misma con n menos 1 (`return n * factorial(n-1)`). Esto se denomina **caso recursivo**. Esto crea un bucle.
+
+Cada vez que se ejecuta la función, se llama a sí misma con un número menor hasta que llega al caso base. Una vez que llega al caso base, devuelve el valor 1. Luego, la función previamente llamada multiplica eso por dos y la funciñon previamente llamada la multiplica por tres y así sucesivamente.
+
+Este bucle continuará hasta que la primera función factorial llamada devuelva el resultado deseado. Es un poco complejo.
+
+Vamos a añadir algunas declaraciones de impresión para ver exactamente cómo funciona esto.
+
