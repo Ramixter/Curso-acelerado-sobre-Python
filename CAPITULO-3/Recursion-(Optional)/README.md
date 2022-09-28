@@ -50,3 +50,15 @@ Este bucle continuará hasta que la primera función factorial llamada devuelva 
 
 Vamos a añadir algunas declaraciones de impresión para ver exactamente cómo funciona esto.
 
+```python
+def factorial(n):
+    print("Factorial called with " + str(n))
+    if n < 2:
+        print("Returning 1")
+        return 1
+    result = n * factorial(n-1)
+    print("Returning " + str(result) + " for factorial of " + str(n))
+    return result
+
+factorial(4)
+```
